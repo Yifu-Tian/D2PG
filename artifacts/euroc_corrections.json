@@ -1,0 +1,186 @@
+{
+  "num_samples": 52903,
+  "input": "local VIO/VO relative pose vector [tx,ty,tz,rx,ry,rz]",
+  "target": "matched GT local relative pose vector [tx,ty,tz,rx,ry,rz]",
+  "stride": 1,
+  "horizon": 1,
+  "max_time_delta": 0.03,
+  "sequences": [
+    {
+      "id": 0,
+      "dataset": "euroc_mav",
+      "sequence": "MH_01_easy",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_01_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/MH_01_easy/rovio_poses.txt"
+    },
+    {
+      "id": 1,
+      "dataset": "euroc_mav",
+      "sequence": "MH_02_easy",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_02_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/MH_02_easy/rovio_poses.txt"
+    },
+    {
+      "id": 2,
+      "dataset": "euroc_mav",
+      "sequence": "MH_03_medium",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_03_medium.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/MH_03_medium/rovio_poses.txt"
+    },
+    {
+      "id": 3,
+      "dataset": "euroc_mav",
+      "sequence": "MH_04_difficult",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_04_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/MH_04_difficult/rovio_poses.txt"
+    },
+    {
+      "id": 4,
+      "dataset": "euroc_mav",
+      "sequence": "MH_05_difficult",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_05_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/MH_05_difficult/rovio_poses.txt"
+    },
+    {
+      "id": 5,
+      "dataset": "euroc_mav",
+      "sequence": "V1_01_easy",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_01_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V1_01_easy/rovio_poses.txt"
+    },
+    {
+      "id": 6,
+      "dataset": "euroc_mav",
+      "sequence": "V1_02_medium",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_02_medium.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V1_02_medium/rovio_poses.txt"
+    },
+    {
+      "id": 7,
+      "dataset": "euroc_mav",
+      "sequence": "V1_03_difficult",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_03_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V1_03_difficult/rovio_poses.txt"
+    },
+    {
+      "id": 8,
+      "dataset": "euroc_mav",
+      "sequence": "V2_01_easy",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V2_01_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V2_01_easy/rovio_poses.txt"
+    },
+    {
+      "id": 9,
+      "dataset": "euroc_mav",
+      "sequence": "V2_02_medium",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V2_02_medium.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V2_02_medium/rovio_poses.txt"
+    },
+    {
+      "id": 10,
+      "dataset": "euroc_mav",
+      "sequence": "V2_03_difficult",
+      "method": "rovio",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V2_03_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V2_03_difficult/rovio_poses.txt"
+    },
+    {
+      "id": 11,
+      "dataset": "euroc_mav",
+      "sequence": "MH_01_easy",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_01_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/MH_01_easy/svo_poses.txt"
+    },
+    {
+      "id": 12,
+      "dataset": "euroc_mav",
+      "sequence": "MH_02_easy",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_02_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/MH_02_easy/svo_poses.txt"
+    },
+    {
+      "id": 13,
+      "dataset": "euroc_mav",
+      "sequence": "MH_03_medium",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_03_medium.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/MH_03_medium/svo_poses.txt"
+    },
+    {
+      "id": 14,
+      "dataset": "euroc_mav",
+      "sequence": "MH_04_difficult",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_04_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/MH_04_difficult/svo_poses.txt"
+    },
+    {
+      "id": 15,
+      "dataset": "euroc_mav",
+      "sequence": "MH_05_difficult",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/MH_05_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/MH_05_difficult/svo_poses.txt"
+    },
+    {
+      "id": 16,
+      "dataset": "euroc_mav",
+      "sequence": "V1_01_easy",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_01_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/V1_01_easy/svo_poses.txt"
+    },
+    {
+      "id": 17,
+      "dataset": "euroc_mav",
+      "sequence": "V1_02_medium",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_02_medium.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/V1_02_medium/svo_poses.txt"
+    },
+    {
+      "id": 18,
+      "dataset": "euroc_mav",
+      "sequence": "V1_03_difficult",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_03_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/V1_03_difficult/svo_poses.txt"
+    },
+    {
+      "id": 19,
+      "dataset": "euroc_mav",
+      "sequence": "V2_01_easy",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V2_01_easy.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/V2_01_easy/svo_poses.txt"
+    },
+    {
+      "id": 20,
+      "dataset": "euroc_mav",
+      "sequence": "V2_02_medium",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V2_02_medium.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/V2_02_medium/svo_poses.txt"
+    },
+    {
+      "id": 21,
+      "dataset": "euroc_mav",
+      "sequence": "V2_03_difficult",
+      "method": "svo_stereo",
+      "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V2_03_difficult.txt",
+      "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/svo_stereo/V2_03_difficult/svo_poses.txt"
+    }
+  ]
+}

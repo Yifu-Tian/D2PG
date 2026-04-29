@@ -1,0 +1,109 @@
+{
+  "figures": {
+    "translation_bar": "artifacts/figures/translation_bar.png",
+    "translation_hist": "artifacts/figures/translation_hist.png",
+    "uncertainty_vs_gain": "artifacts/figures/uncertainty_vs_gain.png",
+    "rotation_bar": "artifacts/figures/rotation_bar.png"
+  },
+  "translation_rmse": {
+    "Raw VIO/VO": 0.05751240253448486,
+    "MLP correction": 0.05999435484409332,
+    "Diffusion mean": 0.057739268988370895,
+    "Diffusion best-of-K": 0.044505275785923004
+  },
+  "translation_median": {
+    "Raw VIO/VO": 0.026587242260575294,
+    "MLP correction": 0.03154927119612694,
+    "Diffusion mean": 0.02911323308944702,
+    "Diffusion best-of-K": 0.015462027862668037
+  },
+  "rotation_rmse_deg": {
+    "Raw VIO/VO": 0.5408513397383611,
+    "MLP correction": 0.5353201012605084,
+    "Diffusion mean": 0.5389112462974418,
+    "Diffusion best-of-K": 0.5585391660894214
+  },
+  "metrics_json": {
+    "mlp": {
+      "num_train": 6461,
+      "num_test": 1420,
+      "epochs": 20,
+      "baseline": {
+        "vio_trans_rmse": 0.05751240183024314,
+        "vio_trans_median": 0.026587242260575294,
+        "vio_rot_rmse_deg": 0.5408513397383611,
+        "vio_rot_median_deg": 0.301501183312779
+      },
+      "mean_residual_baseline": {
+        "mean_residual_trans_rmse": 0.05750657733598772,
+        "mean_residual_trans_median": 0.02654366474598646,
+        "mean_residual_rot_rmse_deg": 0.5403921157194479,
+        "mean_residual_rot_median_deg": 0.30158762489040725
+      },
+      "correction_mlp": {
+        "corrected_trans_rmse": 0.05999435266922886,
+        "corrected_trans_median": 0.03154927119612694,
+        "corrected_rot_rmse_deg": 0.5353201012605084,
+        "corrected_rot_median_deg": 0.2994206964347042
+      },
+      "sample_prediction": {
+        "vio_delta": [
+          -0.003961700014770031,
+          -0.0016527286497876048,
+          -0.0004755559202749282,
+          0.0029454920440912247,
+          -0.000929017667658627,
+          -0.0019526283722370863
+        ],
+        "gt_delta": [
+          0.0009297895012423396,
+          0.0005504315486177802,
+          0.0015048487111926079,
+          -7.439925866492558e-07,
+          -0.002147597260773182,
+          -0.0006156074232421815
+        ],
+        "corrected_delta": [
+          -0.002338430844247341,
+          0.0013927534455433488,
+          -0.0024988448712974787,
+          0.003053319174796343,
+          -0.0006824795855209231,
+          -0.0016873768763616681
+        ]
+      }
+    },
+    "diffusion": {
+      "num_train": 6461,
+      "num_test": 1420,
+      "epochs": 20,
+      "samples": 16,
+      "baseline": {
+        "vio_trans_rmse": 0.05751240183024314,
+        "vio_trans_median": 0.026587242260575294,
+        "vio_rot_rmse_deg": 0.5408513397383611,
+        "vio_rot_median_deg": 0.301501183312779
+      },
+      "diffusion_mean": {
+        "diffusion_mean_trans_rmse": 0.05773926766955702,
+        "diffusion_mean_trans_median": 0.02911323308944702,
+        "diffusion_mean_rot_rmse_deg": 0.5389112462974418,
+        "diffusion_mean_rot_median_deg": 0.30123714258724565
+      },
+      "diffusion_oracle_best_of_k": {
+        "diffusion_best_trans_rmse": 0.044505276952999925,
+        "diffusion_best_trans_median": 0.01546202739700675,
+        "diffusion_best_rot_rmse_deg": 0.5585391660894214,
+        "diffusion_best_rot_median_deg": 0.34795339678779424
+      },
+      "sample_std_mean": [
+        0.013794425874948502,
+        0.022499509155750275,
+        0.021073801442980766,
+        0.0028808144852519035,
+        0.0021710325963795185,
+        0.0018778747180476785
+      ]
+    }
+  }
+}

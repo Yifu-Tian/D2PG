@@ -1,0 +1,23 @@
+{
+  "sequence_id": 5,
+  "sequence": {
+    "id": 5,
+    "dataset": "euroc_mav",
+    "sequence": "V1_01_easy",
+    "method": "rovio",
+    "gt_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/GT/euroc_mav/V1_01_easy.txt",
+    "estimate_path": "/home/yifu/epa_data/AlignAnything/AlignAnything/benchmark/euroc_mav/pose/rovio/V1_01_easy/rovio_poses.txt"
+  },
+  "num_integrated_deltas": 160,
+  "figures": {
+    "trajectory_xy": "artifacts/figures/trajectory_xy.png",
+    "trajectory_3d": "artifacts/figures/trajectory_3d.png"
+  },
+  "integrated_local_ate": {
+    "Raw VIO/VO": 0.5898199410832458,
+    "MLP correction": 0.5944668973140118,
+    "Diffusion mean": 0.47902194460007147,
+    "Diffusion best-of-K": 0.4956038933606613
+  },
+  "note": "This integrates overlapping horizon deltas as a visualization diagnostic, not a deployable SLAM backend."
+}

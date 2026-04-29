@@ -1,0 +1,32 @@
+{
+  "num_train": 6461,
+  "num_test": 1420,
+  "epochs": 20,
+  "samples": 16,
+  "baseline": {
+    "vio_trans_rmse": 0.05751240183024314,
+    "vio_trans_median": 0.026587242260575294,
+    "vio_rot_rmse_deg": 0.5408513397383611,
+    "vio_rot_median_deg": 0.301501183312779
+  },
+  "diffusion_mean": {
+    "diffusion_mean_trans_rmse": 0.05773926766955702,
+    "diffusion_mean_trans_median": 0.02911323308944702,
+    "diffusion_mean_rot_rmse_deg": 0.5389112462974418,
+    "diffusion_mean_rot_median_deg": 0.30123714258724565
+  },
+  "diffusion_oracle_best_of_k": {
+    "diffusion_best_trans_rmse": 0.044505276952999925,
+    "diffusion_best_trans_median": 0.01546202739700675,
+    "diffusion_best_rot_rmse_deg": 0.5585391660894214,
+    "diffusion_best_rot_median_deg": 0.34795339678779424
+  },
+  "sample_std_mean": [
+    0.013794425874948502,
+    0.022499509155750275,
+    0.021073801442980766,
+    0.0028808144852519035,
+    0.0021710325963795185,
+    0.0018778747180476785
+  ]
+}
