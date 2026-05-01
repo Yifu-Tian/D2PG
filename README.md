@@ -32,8 +32,6 @@ D^2 PG learns:
 p(relative_pose | degraded observations, motion context)
 ```
 
-This lets the model represent several plausible motion hypotheses when the visual signal is ambiguous.
-
 ## Why Diffusion?
 
 Diffusion models are useful when the output is not a single obvious answer. In degraded VO, many image pairs can become visually ambiguous:
