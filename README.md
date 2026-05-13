@@ -12,7 +12,7 @@ D^2 PG asks a different question:
 
 The proposed model uses a conditional diffusion or flow-matching model in a Euclidean pose representation, tentatively `R^9`.
 
-## Core Hypothesis
+## Hypothesis
 
 In degraded visual odometry, the observation may not contain enough information to determine a unique pose. Therefore, pose estimation should model uncertainty:
 
