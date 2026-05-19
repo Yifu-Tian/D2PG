@@ -1,16 +1,5 @@
 # D^2 PG: Diffusion Degraded Pose Generator
 
-## One-Line Idea
-
-**D^2 PG** treats visual odometry under darkness, motion blur, occlusion, and weak texture as a **conditional generation** problem instead of a brittle deterministic regression problem.
-
-Traditional VO / SLAM front-ends often assume that images contain stable texture, sufficient light, and trackable features. Under severe degradation, feature tracking can collapse, and a deterministic estimator may output a single overconfident wrong pose.
-
-D^2 PG asks a different question:
-
-> Given degraded visual evidence and motion priors, can we generate a plausible distribution of relative poses?
-
-The proposed model uses a conditional diffusion or flow-matching model in a Euclidean pose representation, tentatively `R^9`.
 
 ## Hypothesis
 
