@@ -160,20 +160,3 @@ It is not a full SLAM back-end trajectory, but it shows how the generated local 
 
 ![D2PG v0 trajectory 3D](artifacts/figures/trajectory_3d.png)
 
-Integrated local ATE on this visualization:
-
-```text
-Raw VIO/VO:          0.5898 m
-MLP correction:      0.5945 m
-Diffusion mean:      0.4790 m
-Diffusion best-of-K: 0.4956 m
-```
-
-Visual report:
-
-- `artifacts/figures/translation_bar.png`
-- `artifacts/figures/translation_hist.png`
-- `artifacts/figures/uncertainty_vs_gain.png`
-- `artifacts/figures/rotation_bar.png`
-- `artifacts/figures/trajectory_xy.png`
-- `artifacts/figures/trajectory_3d.png`
